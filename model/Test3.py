@@ -3,6 +3,7 @@ import tensorflow as tf
 X = tf.constant([[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]])
 y = tf.constant([[10.0], [20.0]])
 
+# 线性模型
 
 class Linear(tf.keras.Model):
     def __init__(self):
